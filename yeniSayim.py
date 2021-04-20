@@ -5,7 +5,7 @@ browser = webdriver.Firefox()
 
 time.sleep(80)
 
-browser.get("https://www.facebook.com/groups/804696693396064/members/")
+browser.get("https://www.facebook.com/groups/<GROUPid>/members/")
 
 time.sleep(1)
 
@@ -22,7 +22,7 @@ def takeAllNames() :
     #contacts.click()
     #time.sleep(1)
 
-    browser.get("https://www.facebook.com/groups/804696693396064/members/")
+    browser.get("https://www.facebook.com/groups/<GROUPid>/members/")
 
     time.sleep(5)
     
